@@ -1,0 +1,134 @@
+.bg-hero {
+  background-image: url("../../assets/bg-hero.svg");
+  background-color: $ice;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+
+  position: relative;
+  z-index: 10;
+  max-height: 674px;
+
+  @include responsive(s) {
+    max-height: 508px;
+  }
+
+  @include responsive(xs) {
+    height: 449px;
+  }
+
+  .circle-left {
+    width: 341px;
+    height: 317px;
+    position: absolute;
+    left: -138px;
+    top: -30px;
+    animation: animaiton-circle 2s ease 0s forwards;
+
+    @include responsive(s) {
+      left: -227px;
+    }
+
+    @include responsive(xs) {
+      display: none;
+    }
+  }
+
+  .circle-right {
+    opacity: 0;
+    width: 174px;
+    height: 181px;
+    position: absolute;
+    right: -48px;
+    top: 180px;
+    animation: animaiton-circle 2s ease 0.5s forwards;
+
+    @include responsive(s) {
+      right: -93px;
+    }
+
+    @include responsive(xs) {
+      display: none;
+    }
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      @include type-1(h1, desktop);
+      color: $white;
+      text-align: center;
+
+      max-width: 583px;
+      margin-top: 56px;
+      margin-bottom: 37px;
+
+      @include responsive(s) {
+        @include type-1(h1, tablet);
+        max-width: 483px;
+        margin-bottom: 40px;
+      }
+
+      @include responsive(xs) {
+        @include type-1(h1, mobile);
+        max-width: 383px;
+        margin-top: 64px;
+        margin-bottom: 40px;
+      }
+
+      span {
+        position: relative;
+
+        &::after {
+          content: "";
+          display: block;
+          width: 100%;
+          height: 3px;
+          background-color: $green;
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+
+    img {
+      margin-top: 50px;
+      max-width: 767px;
+      max-height: 441px;
+
+      @include responsive(s) {
+        max-width: 514px;
+        max-height: 296px;
+      }
+
+      @include responsive(xs) {
+        margin-top: 64px;
+        max-width: 100%;
+        max-height: auto;
+        min-width: 320px;
+        min-height: 184px;
+      }
+    }
+  }
+}
+
+@keyframes animaiton-circle {
+  0% {
+    fill-opacity: 0;
+    stroke-dasharray: 1 1000;
+    stroke-dashoffset: 0;
+    stroke-width: 0;
+    opacity: 1;
+  }
+
+  100% {
+    fill-opacity: 0;
+    stroke-dasharray: 150 0;
+    stroke-dashoffset: 0;
+    stroke-width: 1;
+    opacity: 1;
+  }
+}

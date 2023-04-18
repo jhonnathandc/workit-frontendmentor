@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+
+  padding-top: 120px;
+  padding-bottom: 60px;
+
+  @include responsive(s) {
+    padding-top: 80px;
+  }
+
+  @include responsive(xs) {
+    padding-top: 60px;
+  }
+
+  .social {
+    display: flex;
+    gap: 28px;
+
+    svg {
+      &:hover path {
+        fill: $blue;
+      }
+
+      path {
+        transition: 0.3s ease;
+      }
+    }
+  }
+}

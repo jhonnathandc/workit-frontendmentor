@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../../fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../fonts/manrope/static/Manrope-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@mixin type-1($size, $device) {
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+
+  // H1
+  @if $size == h1 and $device == desktop {
+    font-size: 8rem;
+    line-height: 8rem;
+  } @else if $size == h1 and $device == tablet {
+    font-size: 6rem;
+    line-height: 6rem;
+  } @else if $size == h1 and $device == mobile {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  // H2
+  @else if $size == h2 and $device == desktop {
+    font-size: 5.6rem;
+    line-height: 6.4rem;
+  } @else if $size == h2 and $device == tablet {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+  } @else if $size == h2 and $device == mobile {
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+  }
+
+  // H3
+  @else if $size == h3 and $device == desktop {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  } @else if $size == h3 and $device == tablet {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  } @else if $size == h3 and $device == mobile {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+
+  // H4
+  @else if $size == h4 and $device == desktop {
+    font-size: 2.4rem;
+    line-height: 4rem;
+  } @else if $size == h4 and $device == tablet {
+    font-size: 2rem;
+    line-height: 3.6rem;
+  } @else if $size == h4 and $device == mobile {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+}
+
+@mixin type-2($size, $device) {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+
+  @if $size == p1 and $device == desktop {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+  } @else if $size == p1 and $device == tablet {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  } @else if $size == p1 and $device == mobile {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+}

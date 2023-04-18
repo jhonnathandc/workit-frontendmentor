@@ -1,0 +1,30 @@
+$container-xl: 1150px;
+$container-l: 960px;
+$container-m: 720px;
+$container-s: 576px;
+
+@mixin responsive($device) {
+  @if $device == l {
+    @media screen and (max-width: $container-xl) and (min-width: $container-l) {
+      @content;
+    }
+  } @else if $device == m {
+    @media screen and (max-width: $container-l) and (min-width: $container-m) {
+      @content;
+    }
+  } @else if $device == s {
+    @media screen and (max-width: $container-m) and (min-width: $container-s) {
+      @content;
+    }
+  } @else if $device == xs {
+    @media screen and (max-width: $container-s) {
+      @content;
+    }
+  }
+}
+
+.container {
+  max-width: $container-xl;
+  margin: 0 auto;
+  padding: 0 20px;
+}

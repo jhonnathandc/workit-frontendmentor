@@ -1,0 +1,56 @@
+.btn-primary {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+
+  color: $blue;
+  background-color: $green;
+
+  display: inline-block;
+  padding: 15px 25px;
+  border: 2px solid $green;
+
+  transition: 0.3s ease;
+
+  &:hover {
+    color: $green;
+    background-color: transparent;
+  }
+
+  @include responsive(s) {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+  }
+
+  @include responsive(xs) {
+    font-size: 1.6rem;
+  }
+}
+
+.btn-secondary {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+
+  color: $white;
+
+  display: inline-block;
+  border-bottom: 3px solid $green;
+
+  transition: 0.3s ease;
+
+  &:hover {
+    color: $green;
+  }
+
+  @include responsive(s) {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+  }
+
+  @include responsive(xs) {
+    font-size: 1.6rem;
+  }
+}

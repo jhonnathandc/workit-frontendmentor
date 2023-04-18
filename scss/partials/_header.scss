@@ -1,0 +1,19 @@
+.bg-header {
+  background-color: $blue;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 56px;
+
+    @include responsive(s) {
+      padding-top: 32px;
+    }
+
+    @include responsive(xs) {
+      padding-top: 32px;
+    }
+  }
+}

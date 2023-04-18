@@ -1,0 +1,122 @@
+.bg-steps {
+  background-image: url("../../assets/bg-steps.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+
+  position: static;
+  z-index: -1;
+  padding-top: 255px;
+  padding-bottom: 171px;
+
+  @include responsive(s) {
+    padding-top: 204px;
+    padding-bottom: 100px;
+  }
+
+  @include responsive(xs) {
+    padding-top: 225px;
+    padding-bottom: 70px;
+  }
+
+  .steps {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 32px;
+
+    @include responsive(s) {
+      flex-direction: column;
+    }
+
+    @include responsive(xs) {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .step {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      max-width: 350px;
+
+      @include responsive(s) {
+        flex-direction: row;
+        gap: 32px;
+        max-width: 570px;
+      }
+
+      h4 {
+        @include type-1(h4, desktop);
+        color: $blue;
+
+        margin-bottom: 56px;
+        padding: 10px 24px;
+        border: 1px solid $gray;
+        border-radius: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include responsive(s) {
+          @include type-1(h4, tablet);
+          padding: 8px 21px;
+          margin-bottom: 0px;
+        }
+
+        @include responsive(xs) {
+          @include type-1(h4, mobile);
+          padding: 10px 21px;
+          margin-bottom: 24px;
+        }
+      }
+
+      .step-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include responsive(s) {
+          align-items: start;
+        }
+
+        h3 {
+          @include type-1(h3, desktop);
+          color: $blue;
+          text-align: center;
+
+          margin-bottom: 28px;
+
+          @include responsive(s) {
+            @include type-1(h3, tablet);
+            margin-bottom: 16px;
+          }
+
+          @include responsive(xs) {
+            @include type-1(h3, mobile);
+            margin-bottom: 16px;
+          }
+        }
+
+        p {
+          @include type-2(p1, desktop);
+          color: $blue;
+          text-align: center;
+
+          @include responsive(s) {
+            @include type-2(p1, tablet);
+            text-align: start;
+          }
+
+          @include responsive(xs) {
+            @include type-2(p1, mobile);
+          }
+        }
+      }
+    }
+  }
+}
