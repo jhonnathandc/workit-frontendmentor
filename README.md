@@ -1,20 +1,28 @@
-# JavaScript - Origamid
+# Workit - FrontEnd Mentor
 
-Aqui neste repositório estão os exercícios feitos nas aulas da [Origamid](https://www.origamid.com).
+Esse projeto faz parte dos desafios do [FrontEnd Mentor](https://www.frontendmentor.io/).
+Desafio seria fazer uma Landing Page como proposta no design.
 
-OBS: Existem arquivos HTML e CSS pois está sendo manipulado um site em alguns momentos.
+Foi utilizado HTML, CSS, SASS e JavaScript para fazer algumas animações. Também foi uitlizado plugin JavaScript para fazer algumas animações em SVG.
+
+[Acesse o site aqui.](https://workit-frontendmentor.vercel.app/)
+
+## Demonstração
+
+![Wireframe - 1](https://user-images.githubusercontent.com/82620787/232927558-7af987b6-0ded-454e-ad07-be3490a0e268.png)
+
+## Mais Informações
+
+Foi construído como proposto no design, utilizando:
+
+- HTML
+- CSS
+- SASS
+- JavaScript
 
 ## Stack
 
-- JavaScript
-
-## Autores
-
-- [Origamid Site](https://www.origamid.com)
-
-- [Origamid Intagram](https://www.instagram.com/origamid.cursos/)
-
-- [Origamid Github](https://github.com/origamid)
+**Front-end:** HTML, CSS, SASS, JavaScript
 
 ## License
 
