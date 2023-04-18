@@ -6,6 +6,9 @@ Desafio seria fazer uma Landing Page como proposta no design.
 Foi utilizado HTML, CSS, SASS e JavaScript para fazer algumas animações. Também foi uitlizado plugin JavaScript para fazer algumas animações em SVG.
 
 [Acesse o site aqui.](https://workit-frontendmentor.vercel.app/)
+<br>
+<br>
+[Desafio FrontEnd Mentor.](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu/hub)
 
 ## Demonstração
 
