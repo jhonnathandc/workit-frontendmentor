@@ -8,7 +8,7 @@ Foi utilizado HTML, CSS, SASS e JavaScript para fazer algumas animações. Tamb�
 [Acesse o site aqui.](https://workit-frontendmentor.vercel.app/)
 <br>
 <br>
-[Desafio FrontEnd Mentor.](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu/hub)
+[Desafio FrontEnd Mentor.](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu)
 
 ## Demonstração
 
