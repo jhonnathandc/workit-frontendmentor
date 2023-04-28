@@ -1,22 +1,21 @@
 # Workit - FrontEnd Mentor
 
-Esse projeto faz parte dos desafios do [FrontEnd Mentor](https://www.frontendmentor.io/).
-Desafio seria fazer uma Landing Page como proposta no design.
+This project is part of the challenges of [FrontEnd Mentor](https://www.frontendmentor.io/).
 
-Foi utilizado HTML, CSS, SASS e JavaScript para fazer algumas animações. Também foi uitlizado plugin JavaScript para fazer algumas animações em SVG.
+HTML, CSS, SASS and JavaScript were used to make some animations. A JavaScript plugin was also used to make some animations in SVG.
 
-[Acesse o site aqui.](https://workit-frontendmentor.vercel.app/)
+[Access the website here.](https://workit-frontendmentor.vercel.app/)
 <br>
 <br>
-[Desafio FrontEnd Mentor.](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu)
+[Access the challenge here.](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu)
 
-## Demonstração
+## Demonstration
 
 ![Wireframe - 1](https://user-images.githubusercontent.com/82620787/232927558-7af987b6-0ded-454e-ad07-be3490a0e268.png)
 
-## Mais Informações
+## More information
 
-Foi construído como proposto no design, utilizando:
+It was built as proposed in the design, using:
 
 - HTML
 - CSS
@@ -31,9 +30,9 @@ Foi construído como proposto no design, utilizando:
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-# Olá, meu nome é Jhonnathan! 👋
+# Hello, my name is Jhonnathan! 👋
 
-<p>Acesse minhas redes!</p>
+<p>Access my networks!</p>
 
 [![github](https://img.shields.io/badge/-github-%23333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhonnathandc)
 [![github](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)]("https://www.linkedin.com/in/jhonnathan-cora-6427661b0/)
