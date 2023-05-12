@@ -1,14 +1,14 @@
 .fadeInDown {
-  transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -2rem, 0);
 }
 .fadeInUp {
-  transform: translate3d(0, 100px, 0);
+  transform: translate3d(0, 10rem, 0);
 }
 .fadeInRight {
-  transform: translate3d(50px, 0, 0);
+  transform: translate3d(5rem, 0, 0);
 }
 .fadeInLeft {
-  transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-20rem, 0, 0);
 }
 
 [data-anime] {
@@ -23,7 +23,7 @@
 
 .js-scroll {
   visibility: hidden;
-  transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-20rem, 0, 0);
 }
 
 .js-scroll.active {

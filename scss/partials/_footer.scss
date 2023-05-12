@@ -2,22 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 56px;
+  gap: 5.6rem;
 
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
 
   @include responsive(s) {
-    padding-top: 80px;
+    padding-top: 8rem;
   }
 
   @include responsive(xs) {
-    padding-top: 60px;
+    padding-top: 6rem;
   }
 
   .social {
     display: flex;
-    gap: 28px;
+    gap: 2.8rem;
 
     svg {
       &:hover path {

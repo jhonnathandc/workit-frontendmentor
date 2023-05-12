@@ -6,14 +6,14 @@
     align-items: center;
     justify-content: space-between;
 
-    padding-top: 56px;
+    padding-top: 5.6rem;
 
     @include responsive(s) {
-      padding-top: 32px;
+      padding-top: 3.2rem;
     }
 
     @include responsive(xs) {
-      padding-top: 32px;
+      padding-top: 3.2rem;
     }
   }
 }

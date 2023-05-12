@@ -7,26 +7,26 @@
 
   position: relative;
   z-index: 10;
-  max-height: 674px;
+  max-height: 67.4rem;
 
   @include responsive(s) {
-    max-height: 508px;
+    max-height: 50.8rem;
   }
 
   @include responsive(xs) {
-    height: 449px;
+    height: 44.9rem;
   }
 
   .circle-left {
-    width: 341px;
-    height: 317px;
+    width: 34.1rem;
+    height: 31.1rem;
     position: absolute;
-    left: -138px;
-    top: -30px;
+    left: -13.8rem;
+    top: -3rem;
     animation: animaiton-circle 2s ease 0s forwards;
 
     @include responsive(s) {
-      left: -227px;
+      left: -22.7rem;
     }
 
     @include responsive(xs) {
@@ -35,15 +35,15 @@
   }
 
   .circle-right {
-    width: 174px;
-    height: 181px;
+    width: 17.4rem;
+    height: 18.1rem;
     position: absolute;
-    right: -48px;
-    top: 180px;
+    right: -4.8rem;
+    top: 18rem;
     animation: animaiton-circle 2s ease 0.5s forwards;
 
     @include responsive(s) {
-      right: -93px;
+      right: -9.3rem;
     }
 
     @include responsive(xs) {
@@ -61,21 +61,21 @@
       color: $white;
       text-align: center;
 
-      max-width: 583px;
-      margin-top: 56px;
-      margin-bottom: 37px;
+      max-width: 58.3rem;
+      margin-top: 5.6rem;
+      margin-bottom: 3.7rem;
 
       @include responsive(s) {
         @include type-1(h1, tablet);
-        max-width: 483px;
-        margin-bottom: 40px;
+        max-width: 48.3rem;
+        margin-bottom: 4rem;
       }
 
       @include responsive(xs) {
         @include type-1(h1, mobile);
-        max-width: 383px;
-        margin-top: 64px;
-        margin-bottom: 40px;
+        max-width: 38.3rem;
+        margin-top: 6.4rem;
+        margin-bottom: 4rem;
       }
 
       span {
@@ -85,7 +85,7 @@
           content: "";
           display: block;
           width: 100%;
-          height: 3px;
+          height: .3rem;
           background-color: $green;
           position: absolute;
           left: 0;
@@ -94,21 +94,21 @@
     }
 
     img {
-      margin-top: 50px;
-      max-width: 767px;
-      max-height: 441px;
+      margin-top: 5rem;
+      max-width: 76.7rem;
+      max-height: 44.1rem;
 
       @include responsive(s) {
-        max-width: 514px;
-        max-height: 296px;
+        max-width: 51.4rem;
+        max-height: 29.6rem;
       }
 
       @include responsive(xs) {
-        margin-top: 64px;
+        margin-top: 6.4rem;
         max-width: 100%;
         max-height: auto;
-        min-width: 320px;
-        min-height: 184px;
+        min-width: 32rem;
+        min-height: 18.4rem;
       }
     }
   }
